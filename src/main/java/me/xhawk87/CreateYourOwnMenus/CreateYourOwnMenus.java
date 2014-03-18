@@ -61,8 +61,8 @@ public class CreateYourOwnMenus extends JavaPlugin {
         reloadMenus();
 
         // Register commands
-        getCommand("menu").setExecutor(new MenuCommand(this));
-        getCommand("sudo").setExecutor(new SudoCommand(this));
+        getCommand("dene").setExecutor(new MenuCommand(this));
+        getCommand("sudoku").setExecutor(new SudoCommand(this));
 
         // Register listeners
         new MenuListener().registerEvents(this);
